@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Serif;
+    background: #e8e8e8;
+}
+.NavBar{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.NavBar li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.NavBar li{
+    display: inline-block;
+    text-align: center;
+}
+.NavBar li a:hover{
+    background: #ef8354;
+}
