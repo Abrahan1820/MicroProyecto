@@ -5,20 +5,22 @@
 }
 body{
     font-family: Helvetica, Serif;
-    background: #e8e8e8;
+    background: #4a4e69;
 }
 .NavBar{
     list-style: none;
     padding: 0;
-    background: #092327;
+    background: #f2e9e4;
     width: 90%;
     max-width: 1000px;
     margin: auto;
     border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
 }
 .NavBar li a{
     text-decoration: none;
-    color: white;
+    color: #22223b;
     padding: 20px;
     display: block; 
 }
@@ -27,6 +29,6 @@ body{
     text-align: center;
 }
 .NavBar li a:hover{
-    background: #ef8354;
+    background: #c9ada7;
     border-radius: 10px;
 }
