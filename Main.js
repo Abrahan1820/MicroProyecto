@@ -55,3 +55,15 @@ fetch("statistics.json")
   }
   placeholder.innerHTML = out;
 })
+
+//aviso
+window.addEventListener("load", function() {
+  document.getElementById("bttn").addEventListener("click", function() {
+    if(document.getElementById("name")!= ""){
+      console.log(document.getElementById('name'))
+      console.log('')
+      alert("Your request has been sended");
+    }
+
+  })
+})

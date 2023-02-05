@@ -11,10 +11,10 @@
     <!-- Contenedor del NavBar -->
 
     <ul class="NavBar">
-        <li><a>About Me</a></li>
-        <li><a>Experience</a></li>
-        <li><a>Skills</a></li>
-        <li><a>Contact Me</a></li>
+        <li><a href="#link1">About Me</a></li>
+        <li><a href="#link2">Experience</a></li>
+        <li><a href="#skillsTitle">Skills</a></li>
+        <li><a href="#link4">Contact Me</a></li>
     </ul>
 
     <!-- Contenedor del Hero -->
@@ -30,7 +30,7 @@
 
     <!-- Contenedor del About me -->
     <div class="aboutMeText">
-        <h1 class="titleDark">About Me</h1>
+        <h1 class="titleDark" id="link1">About Me</h1>
         <h3 id="mySelf">I am Abrahan Josue Valles Aponte an Systems Engineering student in <span id="theMetro"><a href="https://www.unimet.edu.ve/" target="_blank">THE METRO!</a></span></p>
         <p>I consider myself like a creative person, with an excellent skill to solve issues.</p>
         <p>I am also very active and good at teams work, because i like to listen at someone else opinion.</p>
@@ -41,7 +41,7 @@
     <img src="me.jpeg" alt="" id="aboutMePhoto">
 
     <!-- Contenedor del Experience -->
-    <h1 class="Title">Experience</h1>
+    <h1 class="Title" id="link2">Experience</h1>
     <div class="Experience">
         <div class="internalSmallBox">   
             <img src="SpaceX-Logo.png" alt="" class="Logo">
@@ -84,6 +84,23 @@
         </tbody>
     </table>
 
+    <!-- Contenedor de contact me -->
+    <div class="contact" id="link4">
+        <div class="contactBox">
+            <div class="left">
+                <h1 class="Titlew">Contact me</h1>
+                <input id="name" type="text" class="field" placeholder="What is your name?">
+                <input id="email" type="email" class="field" placeholder="What is your email?">
+                <textarea id="message" type="text" class="field" placeholder="Type your message"></textarea>
+                <button id="bttn">Send</button>
+                
+                <a href="https://www.instagram.com/abrahan1820/" target="_blank"><img src="Instagram-Logo.png" alt="" class="extraSmall"/></a>
+                <a href="https://wa.me/584142209743" target="_blank"><img src="Whatsapp-logo.png" alt="" class="WAyEM"/></a>
+                <a href="mailto:Abrahan.valles@correo.unimet.edu.ve" target="_blank"><img src="Email-logo.png" alt="" class="WAyEM"/></a>
+                
+            </div>
+        </div>
+    </div>
     
 
     <script src="./Main.js"></script>

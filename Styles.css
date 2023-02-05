@@ -20,6 +20,7 @@ a:active  { color: orange; text-decoration: underline; }
     background: #f2e9e4;
     width: 90%;
     max-width: 1000px;
+    min-width: 492px;
     margin: auto;
     border-radius: 10px;
     text-align: center;
@@ -47,6 +48,7 @@ a:active  { color: orange; text-decoration: underline; }
 }
 .Hero{
     width: 100%;
+    min-width: 492px;
     position: relative;
     height: 780px;
     margin-bottom: 15px;
@@ -83,8 +85,9 @@ a:active  { color: orange; text-decoration: underline; }
 .aboutMeText{
     padding: 5px;
     background: #f2e9e4;
-    max-width: 450px;
-    margin: left;
+    max-width: 400px;
+    min-width: 300px;
+    margin: auto;
     border-radius: 10px;
     text-align: left;
     margin-top: 15px;
@@ -94,12 +97,16 @@ a:active  { color: orange; text-decoration: underline; }
 
 }
 #aboutMePhoto{
-    width: 300px;
+    padding: 5px;
+    width: 60%;
+    max-width: 400px;
+    min-width: 340px;
     align-items: right;
     border-radius: 10px;
-    float: right;
+    float: flex;
     margin: auto;
-    margin-right: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 30px;
     background:#f2e9e4;
 }
@@ -112,6 +119,7 @@ a:active  { color: orange; text-decoration: underline; }
 }
 .Title{
     width: 70%;
+    min-width: 494px;
     text-align: center;
     background: #f2e9e4;
     margin: auto;
@@ -128,9 +136,13 @@ a:active  { color: orange; text-decoration: underline; }
     border-radius: 15px;
 }
 .Experience{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: #c9ada7;
     padding: 15px;
     width: 100%;
+    min-width: 494px;
     border-radius: 20px;
     text-align: center;
     display: flex;
@@ -170,4 +182,62 @@ a:active  { color: orange; text-decoration: underline; }
     text-align: center;
     margin: 15px;
     margin-left: 120px;
-    }
+}
+.contact{
+    background: #f2e9e4;
+    width: 80%;
+    min-width: 494px;
+    border-radius: 10px;
+    padding: 20px 40px 40px 40px;
+    margin: 30px auto auto auto;
+}
+.contact.contactBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact.contactBox.left{
+    width: 25%;
+    height: 100%;
+}
+.field{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #22223b;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    width: 100%;
+    
+}
+#bttn{
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #22223b;
+    background: rgb(70, 166, 235);
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    width: 100%;
+}
+#bttn:hover{
+    background: rgb(9, 91, 215);
+}
+.extraSmall{
+    width: 100px;
+    height: 52px;
+    margin: auto;
+}
+.WAyEM{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-right: 18px;
+}
+.Titlew{
+    width: 70%;
+    min-width: 494px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+}
