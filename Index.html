@@ -25,12 +25,12 @@
         <div class="next Button" id="nextBttn" onclick="carrousel('next')">
             &#62
         </div>
-        <img src="Sistems.png" alt="" id="imagen">
+        <img src="Spaceship.png" alt="" id="imagen">
     </div>
 
     <!-- Contenedor del About me -->
     <div class="aboutMeText">
-        <h1 class="Title">About Me</h1>
+        <h1 class="titleDark">About Me</h1>
         <h3 id="mySelf">I am Abrahan Josue Valles Aponte an Systems Engineering student in <span id="theMetro"><a href="https://www.unimet.edu.ve/" target="_blank">THE METRO!</a></span></p>
         <p>I consider myself like a creative person, with an excellent skill to solve issues.</p>
         <p>I am also very active and good at teams work, because i like to listen at someone else opinion.</p>
@@ -41,11 +41,11 @@
     <img src="me.jpeg" alt="" id="aboutMePhoto">
 
     <!-- Contenedor del Experience -->
-    <h1 id="ExperienceTitle">Experience</h1>
+    <h1 class="Title">Experience</h1>
     <div class="Experience">
         <div class="internalSmallBox">   
             <img src="SpaceX-Logo.png" alt="" class="Logo">
-            <h3 class="Title"><a id="spaceXLink" href="https://www.spacex.com/" target="_blank">SpaceX</a></h2>
+            <h3><a id="spaceXLink" href="https://www.spacex.com/" target="_blank">SpaceX</a></h2>
             <p>Software Engineer</p> 
             <p>Object oriented programming in python</p>
             <p>Hawthorne, California, USA</p>
@@ -53,7 +53,7 @@
         </div> 
         <div class="internalSmallBox">
             <img src="Meta-logo.png" alt="" class="Logo">
-            <h3 class="Title"><a id="metaLink" href="https://www.meta.com/" target="_blank">Meta</a></h3>
+            <h3><a id="metaLink" href="https://www.meta.com/" target="_blank">Meta</a></h3>
             <p>Software Engineer</p>
             <P>Development of trees that connect users in java</P>
             <p>Arbor Blocks 300, Seattle, USA</p>
@@ -61,13 +61,30 @@
         </div>
         <div class="internalSmallBox">
             <img src="Instagram-Logo.png" alt="" class="Logo">
-            <h3 class="Title"><a id="instagramLink" href="https://www.instagram.com//" target="_blank">Instagram</a></h3>
+            <h3><a id="instagramLink" href="https://www.instagram.com//" target="_blank">Instagram</a></h3>
             <p>Software Engineer (Junior)</p>
             <p>Development of new functionalities in java</p>
             <p>Menlo Park, California, USA</p>
             <P>6/13/2017 - 11/5/2018</P>
         </div>
     </div>
+
+    <!-- Contenedor de Skills -->
+    <h1 id="skillsTitle">Skills</h1>
+    <table class="Skills">
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Knowledge</th>
+                <th>Interest</th>
+            </tr>
+        </thead>
+        <tbody id="output">
+
+        </tbody>
+    </table>
+
+    
 
     <script src="./Main.js"></script>
 </body>

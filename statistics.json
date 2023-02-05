@@ -1,0 +1,27 @@
+[
+    {
+        "language":"JavaScript",
+        "Knowledge":"3%",
+        "Interest":"100%"
+    },
+    {
+        "language":"Java",
+        "Knowledge":"26%",
+        "Interest":"74%"
+    },
+    {
+        "language":"Objective-C",
+        "Knowledge":"0%",
+        "Interest":"60%"
+    },
+    {
+        "language":"Phyton",
+        "Knowledge":"38%",
+        "Interest":"80%"
+    },
+    {
+        "language":"C/C++",
+        "Knowledge":"0%",
+        "Interest":"50%"
+    }
+]

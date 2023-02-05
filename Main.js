@@ -1,3 +1,5 @@
+//hero container
+
 let imagenes = ['Sistems.png','Mecanic.png','Spaceship.png'];
 let contador = 0;
 
@@ -31,5 +33,25 @@ if(direccion1=='next'){
     contador=0;
   }
 }
-
 }
+
+//skills container
+
+fetch("statistics.json")
+.then(function(response){
+  return response.json();
+})
+.then(function(statistics){
+  let placeholder = document.querySelector("#output");
+  let out = "";
+  for(let statistic of statistics){
+    out += `
+      <tr>
+        <td>${statistic.language}</td>
+        <td>${statistic.Knowledge}</td>
+        <td>${statistic.Interest}</td>
+      </tr>
+    `;
+  }
+  placeholder.innerHTML = out;
+})

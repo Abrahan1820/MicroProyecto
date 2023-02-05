@@ -110,11 +110,21 @@ a:active  { color: orange; text-decoration: underline; }
     box-shadow: 0 0 10px rgba(0, 0, 0, 60);
     background: #f2e9e4;
 }
-#ExperienceTitle{
+.Title{
     width: 70%;
     text-align: center;
     background: #f2e9e4;
     margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.titleDark{
+    width: 70%;
+    text-align: center;
+    background: #22223b;
+    color: #c9ada7;
+    margin: auto;
+    margin-top: 15px;
     border-radius: 15px;
 }
 .Experience{
@@ -124,6 +134,7 @@ a:active  { color: orange; text-decoration: underline; }
     border-radius: 20px;
     text-align: center;
     display: flex;
+    margin: 15px;
     margin-top: 15px;
 }
 .internalSmallBox{
@@ -140,3 +151,23 @@ a:active  { color: orange; text-decoration: underline; }
 #instagramLink{
     color:rgb(246, 107, 130);
 }
+.Skills{
+    font-size: 30px;
+    background: #c9ada7;
+    padding: 15px;
+    width: 600px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 15px;
+    border: 1px solid black;
+}
+#skillsTitle{
+    font-size: 30px;
+    background: #f2e9e4;
+    padding: 15px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 15px;
+    margin-left: 120px;
+    }
