@@ -4,18 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Helvetica, Serif;
+    font-family: cursive;
     background: #4a4e69;
 }
 
-a:link    { color: inherit; text-decoration: none; }
-a:visited { color: inherit; text-decoration: none; }
-a:hover   { color: inherit; text-decoration: none; }
-a:active  { color: inherit; text-decoration: none; }
+a:link    { color: orange; text-decoration: none; }
+a:visited { color: orange; text-decoration: none; }
+a:hover   { color: orange; text-decoration: none; }
+a:active  { color: orange; text-decoration: none; }
 
-#mySelf{font-family: cursive}
-#theMetro{
-    color:darkorange;}
+
 .NavBar{
     list-style: none;
     padding: 0;
@@ -100,8 +98,36 @@ a:active  { color: inherit; text-decoration: none; }
     align-items: right;
     border-radius: 10px;
     float: right;
-    margin-right: 250px;
+    margin: auto;
+    margin-right: 400px;
     margin-top: 30px;
-    transform: rotate(+10deg);
     background:#f2e9e4;
+}
+.Logo{
+    width: 150px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 60);
+    background: #f2e9e4;
+}
+#ExperienceTitle{
+    width: 70%;
+    text-align: center;
+    background: #f2e9e4;
+    margin: auto;
+    border-radius: 15px;
+}
+.Experience{
+    background: #c9ada7;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+}
+.internalSmallBox{
+    width: 300px;
+    margin: auto;
+
 }
