@@ -8,10 +8,10 @@ body{
     background: #4a4e69;
 }
 
-a:link    { color: orange; text-decoration: none; }
-a:visited { color: orange; text-decoration: none; }
-a:hover   { color: orange; text-decoration: none; }
-a:active  { color: orange; text-decoration: none; }
+a:link    { color: orange; text-decoration: underline; }
+a:visited { color: orange; text-decoration: underline; }
+a:hover   { color: orange; text-decoration: underline; }
+a:active  { color: orange; text-decoration: underline; }
 
 
 .NavBar{
@@ -130,4 +130,13 @@ a:active  { color: orange; text-decoration: none; }
     width: 300px;
     margin: auto;
 
+}
+#spaceXLink{
+    color: black;
+}
+#metaLink{
+    color:rgb(35, 149, 255)
+}
+#instagramLink{
+    color:rgb(246, 107, 130);
 }
