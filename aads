@@ -1,0 +1,41 @@
+[33mcommit 4c1ecf8d79c121c3241956d4bd2f646991c60f5a[m[33m ([m[1;36mHEAD -> [m[1;32maboutMe[m[33m, [m[1;32mmaster[m[33m, [m[1;32mHero[m[33m)[m
+Author: Abrahan Valles <abrahan.valles@correo.unimet.edu.ve>
+Date:   Sat Feb 4 18:17:45 2023 -0400
+
+    Ningun cambio relevante
+
+[33mcommit 0e116f6e47fe3e79bf53f14c673a671f6ef750d3[m[33m ([m[1;31morigin/Hero[m[33m)[m
+Author: Abrahan Valles <abrahan.valles@correo.unimet.edu.ve>
+Date:   Sat Feb 4 18:01:46 2023 -0400
+
+    Creacion exitosa del hero
+
+[33mcommit d636c9fccfe95c73d04e7a9a9950686c68ed88d4[m[33m ([m[1;31morigin/NavBar[m[33m, [m[1;32mNavBar[m[33m)[m
+Author: Abrahan Valles <abrahan.valles@correo.unimet.edu.ve>
+Date:   Sat Feb 4 14:30:07 2023 -0400
+
+    se modificaron los colores
+
+[33mcommit e434d8a0e672c55f17d459dfb0e08e5aa4b046c7[m
+Author: Abrahan Valles <abrahan.valles@correo.unimet.edu.ve>
+Date:   Sat Feb 4 13:50:18 2023 -0400
+
+    Listo para mezclar con master (espero :( )
+
+[33mcommit faf31da14802e5b522fb8f2d49362d7cb4b1d7fc[m
+Author: Abrahan Valles <abrahan.valles@correo.unimet.edu.ve>
+Date:   Sat Feb 4 13:21:08 2023 -0400
+
+    Se creo el NavBar sin referencias
+
+[33mcommit 01149814e99172ff51d14364b82f4ca7c1337cf8[m
+Author: Abrahan Valles <abrahan.valles@correo.unimet.edu.ve>
+Date:   Sat Feb 4 12:15:45 2023 -0400
+
+    Primer commit de prueba
+
+[33mcommit 3e47df5ff0c91696206d2062029c4734d617552f[m
+Author: Abrahan Valles <abrahan.valles@correo.unimet.edu.ve>
+Date:   Sat Feb 4 11:12:08 2023 -0400
+
+    Se inicializo el proyecto
